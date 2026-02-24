@@ -18,15 +18,15 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Leidy Vallejos | Agente Inmobiliaria RE/MAX Fortaleza | Bolivia',
+  title: 'Ramberto Sosa | Propiedades Turísticas en Juan Dolio, Bayahibe y Punta Cana | HYJ Real Estate RD',
   description:
-    'Encuentra tu hogar ideal en Bolivia. Compra, venta y alquiler de propiedades exclusivas en Santa Cruz, Cochabamba y más. Asesoría personalizada con Leidy Vallejos, agente certificada RE/MAX Fortaleza.',
+    'Especialista en propiedades turísticas en República Dominicana. Villas, condos y terrenos en Juan Dolio, Bayahibe y Punta Cana. Asesoría personalizada con Ramberto Sosa, HYJ Real Estate RD.',
   openGraph: {
-    title: 'Leidy Vallejos | Agente Inmobiliaria RE/MAX Fortaleza',
+    title: 'Ramberto Sosa | Propiedades Turísticas | HYJ Real Estate RD',
     description:
-      'Propiedades exclusivas en las mejores zonas de Bolivia. Compra, venta y alquiler con asesoría personalizada.',
+      'Propiedades turísticas exclusivas en Juan Dolio, Bayahibe y Punta Cana. Villas, condos y terrenos con asesoría personalizada.',
     images: ['/images/hero.jpeg'],
-    locale: 'es_BO',
+    locale: 'es_DO',
     type: 'website',
   },
 };

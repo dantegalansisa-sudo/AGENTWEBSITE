@@ -12,11 +12,11 @@ const navLinks = [
 ];
 
 const services = [
-  'Compra de Propiedades',
-  'Venta de Propiedades',
-  'Alquiler',
+  'Villas Turísticas',
+  'Condos de Inversión',
+  'Terrenos Costeros',
+  'Propiedades Frente al Mar',
   'Asesoría de Inversión',
-  'Valoración Gratuita',
 ];
 
 export default function Footer() {
@@ -28,21 +28,20 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-md bg-gold font-playfair text-lg font-bold text-white">
-                LV
+                RS
               </div>
               <div>
-                <p className="font-playfair text-lg font-bold">LEIDY VALLEJOS</p>
-                <p className="text-[11px] tracking-wider text-gold">RE/MAX FORTALEZA</p>
+                <p className="font-playfair text-lg font-bold">RAMBERTO SOSA</p>
+                <p className="text-[11px] tracking-wider text-gold">HYJ REAL ESTATE RD</p>
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Agente inmobiliaria certificada con amplia experiencia en el mercado
-              boliviano. Tu aliada de confianza para comprar, vender o alquilar
-              propiedades.
+              Especialista en propiedades turísticas en República Dominicana. Tu aliado
+              de confianza para invertir en el paraíso caribeño.
             </p>
             <div className="mt-5 flex gap-3">
               <a
-                href="https://instagram.com/leidy.remax"
+                href="https://instagram.com/rambertososa_hyjrealestaterd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-gold"
@@ -50,7 +49,7 @@ export default function Footer() {
                 <Instagram className="h-4 w-4" />
               </a>
               <a
-                href="https://wa.me/59178167409"
+                href="https://wa.me/18294152060"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-whatsapp"
@@ -101,15 +100,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-white/60">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-                Santa Cruz de la Sierra, Bolivia
+                Juan Dolio, San Pedro de Macorís, República Dominicana
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Phone className="h-4 w-4 shrink-0 text-gold" />
-                +591 78167409
+                +1 829-415-2060
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Mail className="h-4 w-4 shrink-0 text-gold" />
-                leidy.vallejos@remax.bo
+                ramberto.sosa@hyjrealestate.com
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Clock className="h-4 w-4 shrink-0 text-gold" />
@@ -121,7 +120,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-3 text-center text-sm text-white/40 md:flex-row">
-            <p>&copy; 2026 Leidy Vallejos &middot; RE/MAX Fortaleza. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Ramberto Sosa &middot; HYJ Real Estate RD. Todos los derechos reservados.</p>
             <p>
               Desarrollado por{' '}
               <span className="font-semibold text-gold">NEXIX Tech Studio</span>

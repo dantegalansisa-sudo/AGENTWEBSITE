@@ -30,7 +30,7 @@ export default function HeroSection() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-4 text-sm font-semibold tracking-widest text-gold"
           >
-            RE/MAX FORTALEZA &middot; BOLIVIA
+            HYJ REAL ESTATE RD &middot; REPÚBLICA DOMINICANA
           </motion.p>
 
           <motion.h1
@@ -39,8 +39,8 @@ export default function HeroSection() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="font-playfair text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Encuentra Tu{' '}
-            <span className="text-gold">Hogar Ideal</span>
+            Tu Inversión en el{' '}
+            <span className="text-gold">Paraíso</span>
           </motion.h1>
 
           <motion.p
@@ -49,8 +49,7 @@ export default function HeroSection() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="mt-5 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg"
           >
-            Propiedades exclusivas en las mejores zonas de Bolivia. Compra, venta
-            y alquiler con asesoría personalizada.
+            Propiedades turísticas exclusivas en Juan Dolio, Bayahibe y Punta Cana. Villas, condos y terrenos frente al mar con asesoría personalizada.
           </motion.p>
 
           <motion.div
@@ -66,7 +65,7 @@ export default function HeroSection() {
               Ver Propiedades
             </a>
             <a
-              href="https://wa.me/59178167409"
+              href="https://wa.me/18294152060"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border-2 border-white/40 px-8 py-3 font-semibold text-white transition-all hover:border-white hover:bg-white/10"

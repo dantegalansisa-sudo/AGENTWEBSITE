@@ -21,17 +21,16 @@ export default function CTASection() {
       <div className="relative z-10 mx-auto max-w-3xl px-4 text-center lg:px-8">
         <ScrollReveal>
           <h2 className="font-playfair text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            ¿Listo Para Encontrar Tu{' '}
-            <span className="text-gold">Hogar Ideal</span>?
+            ¿Listo Para Invertir en el{' '}
+            <span className="text-gold">Paraíso</span>?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-white/70 sm:text-lg">
-            Agenda una consulta gratuita y comencemos a buscar la propiedad
-            perfecta para ti
+            Descubre las mejores oportunidades en Juan Dolio, Bayahibe y Punta Cana. Agenda tu consulta gratuita.
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://wa.me/59178167409?text=Hola Leidy, me gustaría agendar una consulta para encontrar mi hogar ideal."
+              href="https://wa.me/18294152060?text=Hola Ramberto, me gustaría agendar una consulta sobre propiedades turísticas en República Dominicana."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-full bg-whatsapp px-8 py-3.5 font-semibold text-white transition-all hover:bg-green-500 hover:shadow-lg"

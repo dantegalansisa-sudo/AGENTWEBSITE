@@ -46,6 +46,9 @@ export default function SearchBar() {
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar tipo</option>
             <option value="casa">Casa</option>
+            <option value="villa">Villa</option>
+            <option value="condo">Condo</option>
+            <option value="penthouse">Penthouse</option>
             <option value="apartamento">Apartamento</option>
             <option value="terreno">Terreno</option>
             <option value="comercial">Comercial</option>
@@ -58,11 +61,12 @@ export default function SearchBar() {
           </label>
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar zona</option>
-            <option value="santa-cruz">Santa Cruz</option>
-            <option value="cochabamba">Cochabamba</option>
-            <option value="la-paz">La Paz</option>
-            <option value="tarija">Tarija</option>
-            <option value="sucre">Sucre</option>
+            <option value="juan-dolio">Juan Dolio</option>
+            <option value="bayahibe">Bayahibe</option>
+            <option value="punta-cana">Punta Cana</option>
+            <option value="la-romana">La Romana</option>
+            <option value="cap-cana">Cap Cana</option>
+            <option value="bavaro">Bávaro</option>
           </select>
         </div>
 
@@ -75,7 +79,8 @@ export default function SearchBar() {
             <option value="50-100">$50K - $100K</option>
             <option value="100-200">$100K - $200K</option>
             <option value="200-500">$200K - $500K</option>
-            <option value="500+">$500K+</option>
+            <option value="500-1000">$500K - $1M</option>
+            <option value="1000+">$1M+</option>
           </select>
         </div>
 

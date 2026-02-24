@@ -7,19 +7,19 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const testimonials = [
   {
-    text: 'Leidy nos ayudó a encontrar nuestra casa soñada en Equipetrol. Su profesionalismo y dedicación hicieron que todo el proceso fuera increíblemente fácil. ¡100% recomendada!',
-    name: 'María Fernanda López',
-    city: 'Santa Cruz',
+    text: 'Ramberto nos ayudó a encontrar el condo perfecto en Juan Dolio para nuestra inversión de Airbnb. En menos de 3 meses ya teníamos retorno. Su conocimiento de la zona es impresionante.',
+    name: 'Miguel Ángel Rodríguez',
+    city: 'Santo Domingo',
   },
   {
-    text: 'Vendí mi propiedad en tiempo récord gracias a la estrategia de marketing de Leidy. Siempre estuvo disponible y nos mantuvo informados en cada paso.',
-    name: 'Carlos Eduardo Méndez',
-    city: 'Cochabamba',
+    text: 'Compramos nuestra villa en Punta Cana gracias a Ramberto. Nos llevó a ver opciones que no estaban ni publicadas. Un profesional de primera que realmente conoce el mercado turístico.',
+    name: 'Carolina Méndez',
+    city: 'Santiago',
   },
   {
-    text: 'Como inversionista, necesitaba alguien que entendiera el mercado. Leidy no solo encontró las mejores oportunidades, sino que me asesoró con datos reales. Excelente servicio.',
-    name: 'Roberto Guzmán',
-    city: 'La Paz',
+    text: 'Como inversionista extranjero, necesitaba alguien de confianza en República Dominicana. Ramberto me guió en todo el proceso legal y encontró una propiedad con excelente plusvalía en Bayahibe.',
+    name: 'James Patterson',
+    city: 'Miami',
   },
 ];
 

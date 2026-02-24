@@ -23,7 +23,8 @@ const badgeColors: Record<string, string> = {
   Nueva: 'bg-green-accent text-white',
   Exclusiva: 'bg-purple-600 text-white',
   Alquiler: 'bg-blue-500 text-white',
-  Oportunidad: 'bg-red-remax text-white',
+  Oportunidad: 'bg-red-accent text-white',
+  Inversión: 'bg-amber-600 text-white',
 };
 
 export default function PropertyCard({
@@ -38,7 +39,7 @@ export default function PropertyCard({
   badge,
 }: PropertyCardProps) {
   const whatsappMessage = encodeURIComponent(
-    `Hola Leidy, me interesa la propiedad "${name}". ¿Podría darme más información?`
+    `Hola Ramberto, me interesa la propiedad "${name}". ¿Podría darme más información?`
   );
 
   return (
@@ -68,7 +69,7 @@ export default function PropertyCard({
 
         {/* Favorite */}
         <button className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 backdrop-blur-sm transition-colors hover:bg-white">
-          <Heart className="h-4 w-4 text-gray-text hover:text-red-remax transition-colors" />
+          <Heart className="h-4 w-4 text-gray-text hover:text-red-accent transition-colors" />
         </button>
 
         {/* Price */}
@@ -115,7 +116,7 @@ export default function PropertyCard({
             Ver Detalles
           </button>
           <a
-            href={`https://wa.me/59178167409?text=${whatsappMessage}`}
+            href={`https://wa.me/18294152060?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-10 w-10 items-center justify-center rounded-lg bg-whatsapp text-white transition-colors hover:bg-green-500"

@@ -5,26 +5,26 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const locations = [
   {
-    name: 'Santa Cruz',
-    count: 25,
+    name: 'Punta Cana',
+    count: 18,
     image: '/images/property-8.jpeg',
     span: 'row-span-2',
   },
   {
-    name: 'Equipetrol',
+    name: 'Juan Dolio',
     count: 12,
     image: '/images/property-7.jpeg',
     span: '',
   },
   {
-    name: 'Urubó',
-    count: 8,
+    name: 'Bayahibe',
+    count: 9,
     image: '/images/property-9.jpeg',
     span: '',
   },
   {
-    name: 'Cochabamba',
-    count: 10,
+    name: 'Cap Cana',
+    count: 7,
     image: '/images/property-10.jpeg',
     span: '',
   },
@@ -39,7 +39,7 @@ export default function TopLocations() {
             UBICACIONES
           </p>
           <h2 className="mt-2 text-center font-playfair text-3xl font-bold text-navy sm:text-4xl">
-            Zonas Premium en Bolivia
+            Destinos Turísticos Premium en RD
           </h2>
         </ScrollReveal>
 

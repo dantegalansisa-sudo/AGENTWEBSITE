@@ -6,7 +6,7 @@ import { MessageCircle } from 'lucide-react';
 export default function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/59178167409?text=Hola Leidy, estoy interesado/a en sus propiedades. ¿Podemos agendar una consulta?"
+      href="https://wa.me/18294152060?text=Hola Ramberto, estoy interesado/a en propiedades turísticas en República Dominicana. ¿Podemos agendar una consulta?"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp shadow-lg hover:bg-green-500 transition-colors"
