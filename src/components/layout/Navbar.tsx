@@ -6,21 +6,18 @@ import { Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
 const propertyDropdown = [
-  { label: 'Casas', href: '#propiedades' },
-  { label: 'Villas', href: '#propiedades' },
-  { label: 'Condos', href: '#propiedades' },
-  { label: 'Apartamentos', href: '#propiedades' },
-  { label: 'Terrenos', href: '#propiedades' },
-  { label: 'Comercial', href: '#propiedades' },
+  { label: 'Apartamentos en Venta', href: '#propiedades' },
+  { label: 'Apartamentos en Planos', href: '#propiedades' },
+  { label: 'Entrega Inmediata', href: '#propiedades' },
 ];
 
 const zonasDropdown = [
-  { label: 'Punta Cana', href: '#ubicaciones' },
-  { label: 'Santo Domingo', href: '#ubicaciones' },
-  { label: 'La Romana', href: '#ubicaciones' },
-  { label: 'Santiago', href: '#ubicaciones' },
-  { label: 'Samaná', href: '#ubicaciones' },
-  { label: 'Puerto Plata', href: '#ubicaciones' },
+  { label: 'Alameda', href: '#ubicaciones' },
+  { label: 'Los Álamos', href: '#ubicaciones' },
+  { label: 'Herrera', href: '#ubicaciones' },
+  { label: 'Km 12', href: '#ubicaciones' },
+  { label: 'Manoguayabo', href: '#ubicaciones' },
+  { label: 'Los Ríos', href: '#ubicaciones' },
 ];
 
 export default function Navbar() {
@@ -55,15 +52,15 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-accent font-playfair text-lg font-bold text-white">
-            ER
+          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-remax-blue font-playfair text-lg font-bold text-white">
+            JE
           </div>
           <div>
             <p className="font-playfair text-lg font-bold leading-tight text-white">
-              ELISA REYNOSO
+              JOSÉ ENRIQUE JIMÉNEZ
             </p>
             <p className="text-[11px] tracking-wider text-gold">
-              BROKER GROUP
+              RE/MAX CUMBRE
             </p>
           </div>
         </Link>
@@ -157,7 +154,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="https://wa.me/18094406527"
+            href="https://wa.me/18496554048"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-gold-light hover:shadow-lg"
@@ -188,12 +185,12 @@ export default function Navbar() {
           >
             <div className="flex items-center justify-between px-4 py-4">
               <Link href="/" className="flex items-center gap-3" onClick={() => setMobileOpen(false)}>
-                <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-accent font-playfair text-lg font-bold text-white">
-                  ER
+                <div className="flex h-10 w-10 items-center justify-center rounded-md bg-remax-blue font-playfair text-lg font-bold text-white">
+                  JE
                 </div>
                 <div>
-                  <p className="font-playfair text-lg font-bold text-white">ELISA REYNOSO</p>
-                  <p className="text-[11px] tracking-wider text-gold">BROKER GROUP</p>
+                  <p className="font-playfair text-lg font-bold text-white">JOSÉ ENRIQUE JIMÉNEZ</p>
+                  <p className="text-[11px] tracking-wider text-gold">RE/MAX CUMBRE</p>
                 </div>
               </Link>
               <button onClick={() => setMobileOpen(false)} className="text-white">
@@ -276,7 +273,7 @@ export default function Navbar() {
               </Link>
 
               <a
-                href="https://wa.me/18094406527"
+                href="https://wa.me/18496554048"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-base font-semibold text-white"

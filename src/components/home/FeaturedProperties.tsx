@@ -7,85 +7,85 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 const properties = [
   {
     image: '/images/property-1.jpeg',
-    name: 'Villa Punta Blanca',
-    location: 'Punta Cana, La Altagracia',
-    price: '$395,000',
-    type: 'Villa',
+    name: 'Residencial Alameda Park',
+    location: 'Alameda, Santo Domingo Oeste',
+    price: 'US$95,000',
+    type: 'Apartamento 3 Hab',
     operation: 'Venta',
-    beds: 4,
-    baths: 3,
-    area: 350,
-    parking: 2,
+    beds: 3,
+    baths: 2,
+    area: 128,
+    parking: 1,
     badge: 'Destacada',
   },
   {
     image: '/images/property-2.jpeg',
-    name: 'Penthouse Torre Caribe',
-    location: 'Naco, Santo Domingo',
-    price: '$620,000',
+    name: 'Torres del Oeste Premium',
+    location: 'Los Álamos, Santo Domingo Oeste',
+    price: 'US$120,000',
+    type: 'Apartamento 3 Hab',
+    operation: 'Venta',
+    beds: 3,
+    baths: 2,
+    area: 148,
+    parking: 2,
+    badge: 'Entrega Inmediata',
+  },
+  {
+    image: '/images/property-3.jpeg',
+    name: 'Proyecto Vista Verde',
+    location: 'Km 12, Santo Domingo Oeste',
+    price: 'Desde US$78,000',
+    type: 'Apartamento 2 Hab',
+    operation: 'En Planos',
+    beds: 2,
+    baths: 2,
+    area: 95,
+    parking: 1,
+    badge: 'En Planos',
+  },
+  {
+    image: '/images/property-4.jpeg',
+    name: 'Residencial Herrera Gardens',
+    location: 'Herrera, Santo Domingo Oeste',
+    price: 'US$85,000',
+    type: 'Apartamento 2 Hab',
+    operation: 'Venta',
+    beds: 2,
+    baths: 2,
+    area: 105,
+    parking: 1,
+    badge: 'Nueva',
+  },
+  {
+    image: '/images/property-5.jpeg',
+    name: 'Penthouse Sky Living',
+    location: 'Alameda, Santo Domingo Oeste',
+    price: 'US$165,000',
     type: 'Penthouse',
     operation: 'Venta',
     beds: 3,
     baths: 3,
-    area: 280,
+    area: 185,
     parking: 2,
     badge: 'Exclusiva',
   },
   {
-    image: '/images/property-3.jpeg',
-    name: 'Condo Resort Bayahibe',
-    location: 'Bayahibe, La Romana',
-    price: '$165,000',
-    type: 'Condo',
-    operation: 'Venta',
-    beds: 2,
-    baths: 2,
-    area: 110,
-    parking: 1,
-    badge: 'CONFOTUR',
-  },
-  {
-    image: '/images/property-4.jpeg',
-    name: 'Residencia Arroyo Hondo',
-    location: 'Arroyo Hondo, Santo Domingo',
-    price: 'RD$85,000/mes',
-    type: 'Casa',
-    operation: 'Alquiler',
-    beds: 5,
-    baths: 4,
-    area: 420,
-    parking: 3,
-    badge: 'Alquiler',
-  },
-  {
-    image: '/images/property-5.jpeg',
-    name: 'Eco Villa Las Terrenas',
-    location: 'Las Terrenas, Samaná',
-    price: '$245,000',
-    type: 'Villa',
-    operation: 'Venta',
-    beds: 3,
-    baths: 2,
-    area: 200,
-    parking: 1,
-    badge: 'Oportunidad',
-  },
-  {
     image: '/images/property-6.jpeg',
-    name: 'Studio Smart Living',
-    location: 'Bávaro, Punta Cana',
-    price: '$78,000',
-    type: 'Condo',
-    operation: 'Venta',
+    name: 'Apartamento Starter Home',
+    location: 'Manoguayabo, Santo Domingo Oeste',
+    price: 'Desde US$62,000',
+    type: 'Apartamento 1 Hab',
+    operation: 'En Planos',
     beds: 1,
     baths: 1,
     area: 55,
     parking: 1,
-    badge: 'Inversión',
+    badge: 'Reserva US$500',
   },
 ];
 
-const filters = ['Todas', 'Villas', 'Condos', 'Casas'];
+const filters = ['Todas', 'Apartamento 3 Hab', 'Apartamento 2 Hab', 'Penthouse'];
 
 export default function FeaturedProperties() {
   const [activeFilter, setActiveFilter] = useState('Todas');
@@ -93,20 +93,17 @@ export default function FeaturedProperties() {
   const filtered =
     activeFilter === 'Todas'
       ? properties
-      : properties.filter(
-          (p) =>
-            p.type.toLowerCase() === activeFilter.toLowerCase().replace(/s$/, '')
-        );
+      : properties.filter((p) => p.type === activeFilter);
 
   return (
     <section id="propiedades" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <ScrollReveal>
           <p className="text-center text-sm font-semibold tracking-widest text-gold">
-            PROPIEDADES DESTACADAS
+            APARTAMENTOS DESTACADOS
           </p>
           <h2 className="mt-2 text-center font-playfair text-3xl font-bold text-navy sm:text-4xl">
-            Encuentra Tu Próximo Hogar
+            Encuentra Tu Apartamento Ideal
           </h2>
         </ScrollReveal>
 

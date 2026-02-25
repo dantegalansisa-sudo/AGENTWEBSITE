@@ -18,13 +18,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Elisa Reynoso | Broker Inmobiliaria en República Dominicana | +25 Años de Experiencia',
+  title: 'José Enrique Jiménez | Apartamentos en Santo Domingo Oeste | RE/MAX Cumbre',
   description:
-    'Broker inmobiliaria con más de 25 años de experiencia en República Dominicana. Propiedades en Punta Cana, Santo Domingo, La Romana, Samaná y todo el país. Asesoría personalizada en compra, venta e inversión.',
+    'Especialista en apartamentos en Santo Domingo Oeste. Proyectos en planos, entrega inmediata y las mejores opciones en Alameda, Los Álamos, Herrera y más. RE/MAX Cumbre.',
   openGraph: {
-    title: 'Elisa Reynoso | Broker Inmobiliaria | República Dominicana',
+    title: 'José Enrique Jiménez | Apartamentos en Santo Domingo Oeste | RE/MAX Cumbre',
     description:
-      'Broker inmobiliaria con +25 años de experiencia. Propiedades en Punta Cana, Santo Domingo, La Romana, Samaná y todo RD.',
+      'Especialista en apartamentos en Santo Domingo Oeste. Proyectos en planos, entrega inmediata. Alameda, Los Álamos, Herrera y más. RE/MAX Cumbre.',
     images: ['/images/hero.jpeg'],
     locale: 'es_DO',
     type: 'website',

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Instagram, MessageCircle, Facebook, MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MessageCircle, Facebook, MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 const navLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -12,11 +12,12 @@ const navLinks = [
 ];
 
 const services = [
-  'Compra de Propiedades',
-  'Venta de Propiedades',
-  'Inversión Turística',
-  'Asesoría CONFOTUR',
-  'Propiedades Comerciales',
+  'Apartamentos en Venta',
+  'Apartamentos en Planos',
+  'Entrega Inmediata',
+  'Penthouses',
+  'Asesoría de Compra',
+  'Financiamiento Bancario',
 ];
 
 export default function Footer() {
@@ -27,29 +28,20 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-accent font-playfair text-lg font-bold text-white">
-                ER
+              <div className="flex h-10 w-10 items-center justify-center rounded-md bg-remax-blue font-playfair text-lg font-bold text-white">
+                JE
               </div>
               <div>
-                <p className="font-playfair text-lg font-bold">ELISA REYNOSO</p>
-                <p className="text-[11px] tracking-wider text-gold">BROKER GROUP</p>
+                <p className="font-playfair text-lg font-bold">JOSÉ ENRIQUE JIMÉNEZ</p>
+                <p className="text-[11px] tracking-wider text-gold">RE/MAX CUMBRE</p>
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Broker inmobiliaria con más de 25 años de experiencia en República Dominicana. Tu aliada
-              de confianza para invertir en el paraíso.
+              Especialista en apartamentos en Santo Domingo Oeste con más de 5 años de experiencia. Tu aliado de confianza para encontrar tu hogar ideal.
             </p>
             <div className="mt-5 flex gap-3">
               <a
-                href="https://instagram.com/elisareynosobroker"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-gold"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-              <a
-                href="https://wa.me/18094406527"
+                href="https://wa.me/18496554048"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-whatsapp"
@@ -100,15 +92,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-white/60">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-                Santo Domingo, República Dominicana
+                C/ Los Robles #6, La Julia, Santo Domingo, RD
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Phone className="h-4 w-4 shrink-0 text-gold" />
-                +1 (809) 440-6527
+                +1 (849) 655-4048
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Mail className="h-4 w-4 shrink-0 text-gold" />
-                info@elisareynosobroker.com
+                jose.jimenez@remaxcumbre.com
               </li>
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Clock className="h-4 w-4 shrink-0 text-gold" />
@@ -120,7 +112,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-3 text-center text-sm text-white/40 md:flex-row">
-            <p>&copy; 2026 Elisa Reynoso &middot; Broker Group. Todos los derechos reservados.</p>
+            <p>&copy; 2026 José Enrique Jiménez &middot; RE/MAX Cumbre. Todos los derechos reservados.</p>
             <p>
               Desarrollado por{' '}
               <span className="font-semibold text-gold">NEXIX Tech Studio</span>

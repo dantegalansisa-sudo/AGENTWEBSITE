@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const operations = ['Compra', 'Venta', 'Alquiler'];
+const operations = ['Compra', 'En Planos', 'Entrega Inmediata'];
 
 export default function SearchBar() {
   const [activeOp, setActiveOp] = useState('Compra');
@@ -45,13 +45,10 @@ export default function SearchBar() {
           </label>
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar tipo</option>
-            <option value="casa">Casa</option>
-            <option value="villa">Villa</option>
-            <option value="condo">Condo</option>
+            <option value="1hab">Apartamento 1 hab</option>
+            <option value="2hab">Apartamento 2 hab</option>
+            <option value="3hab">Apartamento 3 hab</option>
             <option value="penthouse">Penthouse</option>
-            <option value="apartamento">Apartamento</option>
-            <option value="terreno">Terreno</option>
-            <option value="comercial">Comercial</option>
           </select>
         </div>
 
@@ -61,16 +58,13 @@ export default function SearchBar() {
           </label>
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar zona</option>
-            <option value="punta-cana">Punta Cana</option>
-            <option value="bavaro">Bávaro</option>
-            <option value="cap-cana">Cap Cana</option>
-            <option value="santo-domingo">Santo Domingo</option>
-            <option value="la-romana">La Romana</option>
-            <option value="bayahibe">Bayahibe</option>
-            <option value="santiago">Santiago</option>
-            <option value="samana">Samaná</option>
-            <option value="las-terrenas">Las Terrenas</option>
-            <option value="puerto-plata">Puerto Plata</option>
+            <option value="alameda">Alameda</option>
+            <option value="los-alamos">Los Álamos</option>
+            <option value="herrera">Herrera</option>
+            <option value="km12">Km 12</option>
+            <option value="manoguayabo">Manoguayabo</option>
+            <option value="hainamosa">Hainamosa</option>
+            <option value="los-rios">Los Ríos</option>
           </select>
         </div>
 
@@ -80,11 +74,10 @@ export default function SearchBar() {
           </label>
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar precio</option>
-            <option value="50-100">$50K - $100K</option>
-            <option value="100-200">$100K - $200K</option>
-            <option value="200-500">$200K - $500K</option>
-            <option value="500-1000">$500K - $1M</option>
-            <option value="1000+">$1M+</option>
+            <option value="60-90">US$60K - $90K</option>
+            <option value="90-120">US$90K - $120K</option>
+            <option value="120-150">US$120K - $150K</option>
+            <option value="150+">US$150K+</option>
           </select>
         </div>
 

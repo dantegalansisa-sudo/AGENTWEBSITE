@@ -7,19 +7,19 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const testimonials = [
   {
-    text: 'Elisa es increíble. Con su experiencia de más de 25 años nos guió en todo el proceso de compra de nuestro apartamento en Santo Domingo. Su profesionalismo y honestidad la hacen una broker excepcional.',
-    name: 'Laura Martínez',
-    city: 'Santo Domingo',
+    text: 'José Enrique nos ayudó a conseguir nuestro primer apartamento en Alameda. Nos explicó todo el proceso paso a paso, desde la reserva hasta la entrega de llaves. Un profesional con mucha paciencia y dedicación.',
+    name: 'María del Carmen Pérez',
+    city: 'Santo Domingo Oeste',
   },
   {
-    text: 'Invertimos en un condo en Punta Cana con beneficios CONFOTUR gracias a la asesoría de Elisa. Nos explicó cada detalle del proceso y encontró exactamente lo que buscábamos. Totalmente recomendada.',
-    name: 'Ricardo Fernández',
-    city: 'New York',
+    text: 'Compramos en planos con su asesoría y fue la mejor decisión. Nos consiguió un proyecto con excelentes facilidades de pago y el apartamento quedó mejor de lo que esperábamos. Totalmente recomendado.',
+    name: 'Luis Alberto Reyes',
+    city: 'Los Álamos',
   },
   {
-    text: 'Vendimos nuestra propiedad en tiempo récord y al mejor precio del mercado. Elisa conoce el mercado dominicano como nadie. Su red de contactos y estrategia de venta son de otro nivel.',
-    name: 'Ana María Santos',
-    city: 'Santiago',
+    text: 'Llevaba meses buscando apartamento y no encontraba nada en mi presupuesto. José Enrique me presentó opciones que no sabía que existían. En dos semanas ya estaba firmando. Un crack.',
+    name: 'Yolanda Santana',
+    city: 'Herrera',
   },
 ];
 

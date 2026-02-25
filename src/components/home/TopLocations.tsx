@@ -5,26 +5,26 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const locations = [
   {
-    name: 'Punta Cana',
-    count: 22,
+    name: 'Alameda',
+    count: 15,
     image: '/images/property-8.jpeg',
     span: 'row-span-2',
   },
   {
-    name: 'Santo Domingo',
-    count: 18,
+    name: 'Los Álamos',
+    count: 10,
     image: '/images/property-7.jpeg',
     span: '',
   },
   {
-    name: 'Samaná',
-    count: 10,
+    name: 'Herrera',
+    count: 8,
     image: '/images/property-9.jpeg',
     span: '',
   },
   {
-    name: 'La Romana',
-    count: 8,
+    name: 'Km 12',
+    count: 12,
     image: '/images/property-10.jpeg',
     span: '',
   },
@@ -36,10 +36,10 @@ export default function TopLocations() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <ScrollReveal>
           <p className="text-center text-sm font-semibold tracking-widest text-gold">
-            COBERTURA NACIONAL
+            CONOCE LAS ZONAS
           </p>
           <h2 className="mt-2 text-center font-playfair text-3xl font-bold text-navy sm:text-4xl">
-            Destinos Premium en República Dominicana
+            Sectores Premium en Santo Domingo Oeste
           </h2>
         </ScrollReveal>
 
@@ -68,7 +68,7 @@ export default function TopLocations() {
                     {loc.name}
                   </h3>
                   <p className="mt-1 text-sm text-white/80">
-                    {loc.count} Propiedades
+                    {loc.count} Apartamentos
                   </p>
                 </div>
               </div>

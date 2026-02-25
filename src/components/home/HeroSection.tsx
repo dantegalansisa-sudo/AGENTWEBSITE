@@ -22,15 +22,15 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-[1] bg-gradient-to-t from-navy/80 via-transparent to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-center px-4 lg:px-8">
-        <div className="max-w-2xl pb-32">
+      <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-center px-4 pt-36 lg:px-8">
+        <div className="max-w-2xl pb-52">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-4 text-sm font-semibold tracking-widest text-gold"
           >
-            ELISA REYNOSO BROKER GROUP &middot; REPÚBLICA DOMINICANA
+            RE/MAX CUMBRE &middot; SANTO DOMINGO OESTE
           </motion.p>
 
           <motion.h1
@@ -39,8 +39,8 @@ export default function HeroSection() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="font-playfair text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Invierte en el{' '}
-            <span className="text-gold">Paraíso Dominicano</span>
+            Tu Apartamento Ideal en{' '}
+            <span className="text-gold">Santo Domingo Oeste</span>
           </motion.h1>
 
           <motion.p
@@ -49,7 +49,7 @@ export default function HeroSection() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="mt-5 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg"
           >
-            Más de 25 años conectando inversionistas con las mejores propiedades de República Dominicana. Desde Punta Cana hasta Santo Domingo, te guío en cada paso hacia tu inversión ideal.
+            Especialista en apartamentos nuevos en las mejores zonas de Santo Domingo Oeste. Proyectos en planos, en construcción y entrega inmediata. Desde US$90,000 con facilidades de pago.
           </motion.p>
 
           <motion.div
@@ -62,10 +62,10 @@ export default function HeroSection() {
               href="#propiedades"
               className="rounded-full bg-gold px-8 py-3 font-semibold text-white transition-all hover:bg-gold-light hover:shadow-lg"
             >
-              Ver Propiedades
+              Ver Apartamentos
             </a>
             <a
-              href="https://wa.me/18094406527"
+              href="https://wa.me/18496554048"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border-2 border-white/40 px-8 py-3 font-semibold text-white transition-all hover:border-white hover:bg-white/10"
