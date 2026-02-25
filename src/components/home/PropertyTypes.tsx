@@ -1,14 +1,14 @@
 'use client';
 
-import { Home, Building2, Construction, Store, Waves } from 'lucide-react';
+import { Home, Building2, Construction, Store, Palmtree } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const types = [
-  { icon: Home, label: 'Villas', count: 10 },
-  { icon: Building2, label: 'Condos', count: 15 },
-  { icon: Waves, label: 'Frente al Mar', count: 8 },
-  { icon: Construction, label: 'Terrenos', count: 6 },
-  { icon: Store, label: 'Comercial', count: 4 },
+  { icon: Home, label: 'Casas', count: 18 },
+  { icon: Palmtree, label: 'Villas', count: 14 },
+  { icon: Building2, label: 'Condos', count: 20 },
+  { icon: Construction, label: 'Terrenos', count: 10 },
+  { icon: Store, label: 'Comercial', count: 6 },
 ];
 
 export default function PropertyTypes() {

@@ -61,12 +61,16 @@ export default function SearchBar() {
           </label>
           <select className="w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-navy outline-none focus:border-gold">
             <option value="">Seleccionar zona</option>
-            <option value="juan-dolio">Juan Dolio</option>
-            <option value="bayahibe">Bayahibe</option>
             <option value="punta-cana">Punta Cana</option>
-            <option value="la-romana">La Romana</option>
-            <option value="cap-cana">Cap Cana</option>
             <option value="bavaro">Bávaro</option>
+            <option value="cap-cana">Cap Cana</option>
+            <option value="santo-domingo">Santo Domingo</option>
+            <option value="la-romana">La Romana</option>
+            <option value="bayahibe">Bayahibe</option>
+            <option value="santiago">Santiago</option>
+            <option value="samana">Samaná</option>
+            <option value="las-terrenas">Las Terrenas</option>
+            <option value="puerto-plata">Puerto Plata</option>
           </select>
         </div>
 

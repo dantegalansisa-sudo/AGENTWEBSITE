@@ -6,16 +6,21 @@ import { Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
 const propertyDropdown = [
+  { label: 'Casas', href: '#propiedades' },
   { label: 'Villas', href: '#propiedades' },
   { label: 'Condos', href: '#propiedades' },
+  { label: 'Apartamentos', href: '#propiedades' },
   { label: 'Terrenos', href: '#propiedades' },
   { label: 'Comercial', href: '#propiedades' },
 ];
 
 const zonasDropdown = [
-  { label: 'Juan Dolio', href: '#ubicaciones' },
-  { label: 'Bayahibe', href: '#ubicaciones' },
   { label: 'Punta Cana', href: '#ubicaciones' },
+  { label: 'Santo Domingo', href: '#ubicaciones' },
+  { label: 'La Romana', href: '#ubicaciones' },
+  { label: 'Santiago', href: '#ubicaciones' },
+  { label: 'Samaná', href: '#ubicaciones' },
+  { label: 'Puerto Plata', href: '#ubicaciones' },
 ];
 
 export default function Navbar() {
@@ -50,15 +55,15 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-gold font-playfair text-lg font-bold text-white">
-            RS
+          <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-accent font-playfair text-lg font-bold text-white">
+            ER
           </div>
           <div>
             <p className="font-playfair text-lg font-bold leading-tight text-white">
-              RAMBERTO SOSA
+              ELISA REYNOSO
             </p>
             <p className="text-[11px] tracking-wider text-gold">
-              HYJ REAL ESTATE RD
+              BROKER GROUP
             </p>
           </div>
         </Link>
@@ -152,7 +157,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="https://wa.me/18294152060"
+            href="https://wa.me/18094406527"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-gold-light hover:shadow-lg"
@@ -183,12 +188,12 @@ export default function Navbar() {
           >
             <div className="flex items-center justify-between px-4 py-4">
               <Link href="/" className="flex items-center gap-3" onClick={() => setMobileOpen(false)}>
-                <div className="flex h-10 w-10 items-center justify-center rounded-md bg-gold font-playfair text-lg font-bold text-white">
-                  RS
+                <div className="flex h-10 w-10 items-center justify-center rounded-md bg-purple-accent font-playfair text-lg font-bold text-white">
+                  ER
                 </div>
                 <div>
-                  <p className="font-playfair text-lg font-bold text-white">RAMBERTO SOSA</p>
-                  <p className="text-[11px] tracking-wider text-gold">HYJ REAL ESTATE RD</p>
+                  <p className="font-playfair text-lg font-bold text-white">ELISA REYNOSO</p>
+                  <p className="text-[11px] tracking-wider text-gold">BROKER GROUP</p>
                 </div>
               </Link>
               <button onClick={() => setMobileOpen(false)} className="text-white">
@@ -271,7 +276,7 @@ export default function Navbar() {
               </Link>
 
               <a
-                href="https://wa.me/18294152060"
+                href="https://wa.me/18094406527"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-base font-semibold text-white"

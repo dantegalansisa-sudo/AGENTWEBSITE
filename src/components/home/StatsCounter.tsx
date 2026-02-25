@@ -10,10 +10,10 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { value: 120, suffix: '+', label: 'Propiedades Vendidas' },
-  { value: 6, suffix: '+', label: 'Años de Experiencia' },
-  { value: 180, suffix: '+', label: 'Clientes Satisfechos' },
-  { value: 3, suffix: '', label: 'Zonas Turísticas' },
+  { value: 250, suffix: '+', label: 'Propiedades Vendidas' },
+  { value: 25, suffix: '+', label: 'Años de Experiencia' },
+  { value: 500, suffix: '+', label: 'Clientes Satisfechos' },
+  { value: 10, suffix: '+', label: 'Zonas en RD' },
 ];
 
 function AnimatedNumber({ value, suffix, inView }: { value: number; suffix: string; inView: boolean }) {

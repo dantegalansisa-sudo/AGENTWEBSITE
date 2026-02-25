@@ -7,19 +7,19 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const testimonials = [
   {
-    text: 'Ramberto nos ayudó a encontrar el condo perfecto en Juan Dolio para nuestra inversión de Airbnb. En menos de 3 meses ya teníamos retorno. Su conocimiento de la zona es impresionante.',
-    name: 'Miguel Ángel Rodríguez',
+    text: 'Elisa es increíble. Con su experiencia de más de 25 años nos guió en todo el proceso de compra de nuestro apartamento en Santo Domingo. Su profesionalismo y honestidad la hacen una broker excepcional.',
+    name: 'Laura Martínez',
     city: 'Santo Domingo',
   },
   {
-    text: 'Compramos nuestra villa en Punta Cana gracias a Ramberto. Nos llevó a ver opciones que no estaban ni publicadas. Un profesional de primera que realmente conoce el mercado turístico.',
-    name: 'Carolina Méndez',
-    city: 'Santiago',
+    text: 'Invertimos en un condo en Punta Cana con beneficios CONFOTUR gracias a la asesoría de Elisa. Nos explicó cada detalle del proceso y encontró exactamente lo que buscábamos. Totalmente recomendada.',
+    name: 'Ricardo Fernández',
+    city: 'New York',
   },
   {
-    text: 'Como inversionista extranjero, necesitaba alguien de confianza en República Dominicana. Ramberto me guió en todo el proceso legal y encontró una propiedad con excelente plusvalía en Bayahibe.',
-    name: 'James Patterson',
-    city: 'Miami',
+    text: 'Vendimos nuestra propiedad en tiempo récord y al mejor precio del mercado. Elisa conoce el mercado dominicano como nadie. Su red de contactos y estrategia de venta son de otro nivel.',
+    name: 'Ana María Santos',
+    city: 'Santiago',
   },
 ];
 
